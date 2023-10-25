@@ -1,0 +1,27 @@
+site_name: Projeto Fato ou Fake
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/weather-night
+        name: Modo noturno
+    - scheme: slate
+      primary: deep blue
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+nav:
+  - Home: index.md
+  - Regras Negócio: regra_negocio.md
+  - Codificação: codigo.md
+
+markdown-extensions:
+  - pymdownx.tasklist
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
